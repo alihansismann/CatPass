@@ -356,7 +356,7 @@ export function SecretsTable({
           </Badge>
         </div>
       </CardHeader>
-      <CardContent>
+      <CardContent className='h-[70vh] overflow-y-auto'>
         {isLoading ? (
           <div className="text-center py-8 text-gray-500">
             Loading secrets...
